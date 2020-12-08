@@ -149,8 +149,8 @@ export default {
     Sketches,
     LowFiDesign,
     FeedBack,
-    TaskAnalysis,
-  },
+    TaskAnalysis
+  }
 };
 </script>
 

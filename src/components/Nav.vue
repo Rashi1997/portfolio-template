@@ -42,7 +42,7 @@
 export default {
   props: {
     name: null,
-    variant: null,
+    variant: null
   },
   computed: {
     // a computed getter
@@ -51,8 +51,8 @@ export default {
       if (this.name === "About") {
         return "navb-white";
       } else return "navb-color";
-    },
-  },
+    }
+  }
 };
 </script>
 

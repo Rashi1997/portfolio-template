@@ -22,7 +22,7 @@ import Card from "../components/Card.vue";
 export default {
   name: "Work",
   props: {},
-  components: { Card },
+  components: { Card }
 };
 </script>
 

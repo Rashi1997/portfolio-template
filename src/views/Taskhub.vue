@@ -63,7 +63,7 @@
 export default {
   name: "Taskhub",
   props: {},
-  components: {},
+  components: {}
 };
 </script>
 

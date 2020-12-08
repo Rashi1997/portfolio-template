@@ -123,8 +123,8 @@ export default {
   props: {},
   components: {
     LowFiCarousel,
-    HiFiCarousel,
-  },
+    HiFiCarousel
+  }
 };
 </script>
 
@@ -143,7 +143,7 @@ export default {
 }
 .bar {
   height: 120px;
-  border-left: solid 1.2rem #0D7369;
+  border-left: solid 1.2rem #0d7369;
   display: flex;
   align-items: center;
   padding-left: 15vw;
@@ -152,7 +152,7 @@ export default {
   font-weight: 600;
   font-style: bold;
   font-size: 2.5rem;
-  color: #0D7369;
+  color: #0d7369;
 }
 .title {
   margin-left: 20vw;

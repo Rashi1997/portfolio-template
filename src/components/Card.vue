@@ -36,15 +36,15 @@
 export default {
   name: "Card",
   props: {
-    item: null,
+    item: null
   },
   computed: {
     // a computed getter
     src: function() {
       // `this` points to the vm instance
       return "../assets/design/" + this.item.src + ".png";
-    },
-  },
+    }
+  }
 };
 </script>
 
@@ -57,12 +57,12 @@ a.custom-card:hover {
 }
 .bar {
   padding-left: 1rem;
-  border-left: 1rem solid #0D7369;
+  border-left: 1rem solid #0d7369;
   margin-left: -1.29rem;
   height: 3rem;
 }
 .projecttitle {
-  color: #0D7369;
+  color: #0d7369;
   overflow-wrap: break-word;
   font-family: poppins, sans-serif;
   font-weight: 600;

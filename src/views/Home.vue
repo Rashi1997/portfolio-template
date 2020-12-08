@@ -36,8 +36,8 @@ export default {
   props: {},
   components: {
     // ES6; property shorthand + Vue should automatically dasherize the key for us
-    VueTyper,
-  },
+    VueTyper
+  }
 };
 </script>
 

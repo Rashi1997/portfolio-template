@@ -176,7 +176,7 @@ export default {
   data() {
     return {
       slide: 0,
-      sliding: null,
+      sliding: null
     };
   },
   methods: {
@@ -185,8 +185,8 @@ export default {
     },
     onSlideEnd() {
       this.sliding = false;
-    },
-  },
+    }
+  }
 };
 </script>
 <style scoped>

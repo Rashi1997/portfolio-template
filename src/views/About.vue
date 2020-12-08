@@ -113,7 +113,7 @@ import Portraits from "../components/Portraits.vue";
 export default {
   name: "Home",
   props: {},
-  components: { Carousel, Portraits },
+  components: { Carousel, Portraits }
 };
 </script>
 

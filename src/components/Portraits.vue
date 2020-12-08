@@ -17,7 +17,7 @@
         <template #img>
           <img
             class="sket d-block img-fluid w-100"
-                  src="https://placekitten.com/300/300"
+            src="https://placekitten.com/300/300"
             alt="image slot"
           />
         </template>
@@ -28,7 +28,7 @@
         <template #img>
           <img
             class="sket d-block img-fluid w-100"
-                  src="https://placekitten.com/300/300"
+            src="https://placekitten.com/300/300"
             alt="image slot"
           />
         </template>
@@ -55,7 +55,6 @@
           />
         </template>
       </b-carousel-slide>
-
     </b-carousel>
   </div>
 </template>
@@ -65,7 +64,7 @@ export default {
   data() {
     return {
       slide: 0,
-      sliding: null,
+      sliding: null
     };
   },
   methods: {
@@ -74,8 +73,8 @@ export default {
     },
     onSlideEnd() {
       this.sliding = false;
-    },
-  },
+    }
+  }
 };
 </script>
 <style scoped>

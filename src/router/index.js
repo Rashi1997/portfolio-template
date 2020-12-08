@@ -10,8 +10,8 @@ const routes = [
     name: "Home",
     component: Home,
     meta: {
-      title: "My Name",
-    },
+      title: "My Name"
+    }
   },
   {
     path: "/about",
@@ -22,8 +22,8 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/About.vue"),
     meta: {
-      title: "ABOUT | My Name",
-    },
+      title: "ABOUT | My Name"
+    }
   },
   {
     path: "/work",
@@ -34,8 +34,8 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/Work.vue"),
     meta: {
-      title: "WORK | My Name",
-    },
+      title: "WORK | My Name"
+    }
   },
   {
     path: "/cupcake-redesign",
@@ -46,8 +46,8 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/Redesign.vue"),
     meta: {
-      title: "WORK | Cupcake Redesign",
-    },
+      title: "WORK | Cupcake Redesign"
+    }
   },
   {
     path: "/ilk-design",
@@ -58,8 +58,8 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/Design.vue"),
     meta: {
-      title: "WORK | Ilk Design",
-    },
+      title: "WORK | Ilk Design"
+    }
   },
   {
     path: "/beehive",
@@ -70,8 +70,8 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/Taskhub.vue"),
     meta: {
-      title: "WORK | Beehive",
-    },
+      title: "WORK | Beehive"
+    }
   },
   {
     path: "/repo-hub",
@@ -82,15 +82,15 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/Repohub.vue"),
     meta: {
-      title: "WORK | Repohub",
-    },
-  },
+      title: "WORK | Repohub"
+    }
+  }
 ];
 
 const router = new VueRouter({
   mode: "history",
   base: process.env.BASE_URL,
-  routes,
+  routes
 });
 
 router.beforeEach((to, from, next) => {
